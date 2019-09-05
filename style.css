@@ -1,6 +1,6 @@
 
 * {
-    font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 iframe, img {
@@ -11,6 +11,7 @@ a:link, a:visited, a:hover, a:active {
     color: orange;
     text-decoration: none;
     padding-right: 30px;
+    font-family: 'Lobster', cursive;
 }
 
 .glow {
@@ -58,7 +59,6 @@ ul {
     color: white;
     border: 2px solid orange;
     border-radius: 10px;
-    opacity: .5;
     margin: 10px;
 }
 
@@ -68,7 +68,6 @@ ul {
     border: 2px solid orange;
     border-radius: 10px;
     padding: 10px;
-    opacity: 1;
     margin: 10px;
 }
 
@@ -78,17 +77,22 @@ ul {
     border: 2px solid orange;
     border-radius: 10px;
     padding: 10px;
-    opacity: .8;
     font-size: 25px;
     margin: 10px;
 }
 
 .footer {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    column-gap: 20px;
     grid-column: 1/4;
     grid-row: 3/4;
     border: 2px solid orange;
     border-radius: 10px;
-    padding: 10px;
-    opacity: .8;
+    padding: 20px;
     margin: 10px;
+    
 }
+
+
