@@ -3,6 +3,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+img {
+    filter: grayscale(1);
+}
+
 iframe, img {
     border-radius: 8px;
 }
@@ -10,7 +14,6 @@ iframe, img {
 a:link, a:visited, a:hover, a:active {
     color: orange;
     text-decoration: none;
-    padding-right: 30px;
     font-family: 'Lobster', cursive;
 }
 
@@ -31,44 +34,47 @@ body {
     background-size:cover;
 } 
 
-ul {
-    display: inline;
-    list-style-type: none;
+.box {
+    box-sizing: border-box;
+    margin: 10px;
 }
 
-#container {
+.container {
+    position: absolute;
+    width: 97.5%;
+    height: 94%;
     display: grid;
     grid-template-columns:30% auto 50%;
     grid-template-rows: 60px auto 100px;
     border: 2px solid orange;
     border-radius: 10px;
     color: white;
-    padding: 10px;
-    overflow: hide;
-    
+    padding: 5px;
 }
 
-.header {
-    font-size: 30px;
+.nav {
     display: flex;
+    font-size: 30px;
     align-items: center;
     justify-content: end;
+    padding-right: 15px;
+    column-gap: 15px;
     grid-column: 2/4;
     grid-row: 1/2;
     background: black;
     color: white;
     border: 2px solid orange;
     border-radius: 10px;
-    margin: 10px;
+    
 }
 
-.sidebar { 
+.sidebar {
+    position: relative;
     grid-column: 1/2;
     grid-row: 2/3;
     border: 2px solid orange;
     border-radius: 10px;
     padding: 10px;
-    margin: 10px;
 }
 
 .content {
@@ -78,7 +84,14 @@ ul {
     border-radius: 10px;
     padding: 10px;
     font-size: 25px;
-    margin: 10px;
+    
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    
 }
 
 .footer {
@@ -90,9 +103,83 @@ ul {
     grid-row: 3/4;
     border: 2px solid orange;
     border-radius: 10px;
-    padding: 20px;
-    margin: 10px;
-    
+    padding: 10px;
 }
 
+
+/* Small devices, 885px and down: 
+*Loading a smaller version of the background picture with
+repeat instead.
+*The grid is reconfigured to a single column.
+*The navbar is fixed to the wievport and centrated.
+*All fonts are reduced in size.
+
+container border?
+reduce size footer content?
+
+*/
+@media only screen and (max-width: 885px) {
+
+body {
+    background-image: url("media/city-640.jpg");
+    background-repeat: repeat;
+    background-size:cover;
+}
+
+.container {
+    position: absolute;
+    display: grid;
+    grid-template-columns:100%;
+    grid-template-rows: auto auto auto auto;
+    color: beige;
+    padding: 5px;
+}
+
+.nav {
+    display: flex;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    column-gap: 15px;
+    background: black;
+    color: white;
+    border: 2px solid orange;
+    border-radius: 10px;
+    z-index: 10;
+
+}
+.sidebar {
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border: 2px solid orange;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.content {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    border: 2px solid orange;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    column-gap: 20px;
+    grid-column: 1/1;
+    grid-row: 4/5;
+    border: 2px solid orange;
+    border-radius: 10px;
+    padding: 10px;
+    
+}    
+} 
 
