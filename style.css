@@ -69,7 +69,6 @@ body {
 }
 
 .sidebar {
-    position: relative;
     grid-column: 1/2;
     grid-row: 2/3;
     border: 2px solid orange;
@@ -87,18 +86,16 @@ body {
     
 }
 
-.title {
+.form {
     display: flex;
-    align-items: center;
     font-size: 16px;
-    
 }
 
 .footer {
     display: flex;
     align-items: center;
     justify-content: end;
-    column-gap: 20px;
+    column-gap: 10px;
     grid-column: 1/4;
     grid-row: 3/4;
     border: 2px solid orange;
