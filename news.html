@@ -1,47 +1,76 @@
 <!DOCTYPE html>
 <html lang="sv-se">
 
-    <head>
-        <meta name="Author" content="Anders Söderberg">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Övningsuppgifter front end utveckling växjö">
-        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Inlämningsuppgift 2</title>
-        <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap" rel="stylesheet">
-    </head>
+<head>
+    <meta name="Author" content="Anders Söderberg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Övningsuppgifter front end utveckling växjö">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inlämningsuppgift 2</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap" rel="stylesheet">
+</head>
 
-    <body>
-        <div class="box container">
-            <nav class="box nav">
-                <a href="index.html">Start</a>
-                <a href="news.html" class="glow">Nyheter</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="coworkers.html">Medarbetare</a>
-                <a href="contact.html">Kontakt</a>
-            </nav>
-            <div class="box sidebar">
-                <img src="media/skyscraper-3122210_640.jpg" width="100%" height="100%" alt="picture of programming">
+<body>
+    <div class="box container">
+        <nav class="box nav">
+            <a href="index.html">Start</a>
+            <a href="news.html" class="glow">Nyheter</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="coworkers.html">Medarbetare</a>
+            <a href="contact.html">Kontakt</a>
+        </nav>
+        <header class="box header">Nyheter</header>
+        <div class="box sidebar">
+            <img class="pic" src="media/skyscraper-3122210_640.jpg" alt="picture of skyscraper">
+        </div>
+        <main class="box content">
+            <div class="flex">
+                <div class="newschild">
+                    <h3>Nya lokaler</h3>
+                    <p> Vi har precis skaffat större lokaler då vi vuxit ur våra gamla i 
+                        samband med vår nya webbutvecklare och stjärna, Viktor Orbán.</p>
+                </div>
+                <div class="newschild">
+                    <h3>Utställning</h3>
+                    <p>I år kommer vi att närvara med egen monter på it-tekniska mässan 
+                        på globen. Evenemanget varar från fredagen den 11:e oktober till
+                        och med söndagen den 13:e.
+                    </p>
+                </div>
+                <div class="newschild">
+                    <h3>Månadens anställda</h3>
+                    <p>Denna månaden vill vi hylla Donald Trump för att han fällt flera pedofilringar
+                        och lagfört politiker och tjänstemän som tidigare ansetts för mäktiga eller 
+                        inflytelsefulla.
+                    </p>
+                </div>
             </div>
-            <main class="box content">Vi har precis skaffat större lokaler
-                då vi vuxit ur våra gamla i samband med vår nya webbutvecklare och stjärna,
-                Viktor Orbán.
-            </main>
-            <footer class="box footer">
+        </main>
+        <!--Placed Google map link in contact instead for cosmetic reason-->
+        <footer class="box footer">
+            <address> Movägen 8<br>
+                342 50, Vislanda<br>
+                Tel: 0708-624166
+            </address>
+            <div class="r">
                 <a href="https://www.facebook.com/anders.soderberg.148">
-                    <img src="media/iconfinder_facebook_834722.png" width="40px" height="40px" alt="icon for facebook">
+                    <img class="icon" src="media/iconfinder_facebook_834722.png" alt="icon for facebook">
                 </a>
                 <a href="https://www.instagram.com/arnt81/">
-                    <img src="media/iconfinder_social_media_circled_network-01_1856379.png" width="40px" height="40px" alt="icon for instagram">
+                    <img class="icon" src="media/iconfinder_social_media_circled_network-01_1856379.png"
+                        alt="icon for instagram">
                 </a>
                 <a href="https://twitter.com/ArnT09017345">
-                    <img src="media/iconfinder_twitter_circle_color_107170.png" width="40px" height="40px" alt="icon for twitter">
+                    <img class="icon" src="media/iconfinder_twitter_circle_color_107170.png" alt="icon for twitter">
                 </a>
                 <a href="mailto:anders_soderberg@hotmail.com">
-                    <img src="media/iconfinder_mail_287559.png" width="40px" height="40px" alt="icon for mail">
+                    <img class="icon" src="media/iconfinder_mail_287559.png" alt="icon for mail">
                 </a>
-            </footer>
-        </div>
-    </body>
+            </div>
+        </footer>
+    </div>
+</body>
+
 </html>
