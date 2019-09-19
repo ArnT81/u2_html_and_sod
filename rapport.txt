@@ -1,0 +1,39 @@
+Report!
+
+The webpage is created in 1920*1080px and all measurements are set in relative length-units in the css. All pages are responsive 
+and there are 2 breakpoints. the first one between 800px and 415px is a shared value to cover the Mozilla Firefox´s developer-tool specs 
+of Kindle and iPad. Both looks good in portrait-mode with som tweaks and Kindle looks ok in landscape-mode but require a bit of scrolling sideways.
+iPad-landscape however doesn´t work with the page and since it wasn´t required I didn´t spent more time to fix it. The second breakpoint 
+is set at 414px to cover all DevTools specs of phones and looks good enough in portrait mode in all of the available devices, also here the 
+landscape-mode has been overseen for the same reason as mentioned above.
+    when minimizing the content is programmed to end up in a single row instead and the pictures, fonts and icons are displayed in a smaller 
+version. The background is a smaller version set to repeat.
+Since I didn´t want a "hamburger-menu" I just moved the navbar to the center and the text was centered. The "header" which showed your 
+current location within the page is set to dissapear with display: none.
+
+Regarding SEO, relevant keywords has been added in the meta content and appear in the heading and title when suitable. There are 
+several pictures and they all come with alt-descriptions, these in Swedish since majority of customers will likely be using this language.
+All internal links got short and precise names that describes the content of the target and all pages are linked to popular social-media 
+webpage through icons in the footer. All pages on the site are responsive and customized to be mobile-friendly and will because of this 
+not be punished by search-engines.
+
+Responsive webdesign means that the webpage will adapt its content to the browser-window or the users current display. 
+Needless to say, this is important since almost every device got its own resolution and display-size. More particularly approximately
+8.48 billion unique ones out there according to Inside Design ( https://www.invisionapp.com/inside-design/examples-responsive-web-design/ ) 
+and you want as many as possible to be able to have a positive impression of and ability to use your website.
+
+Almost exclusively every single visitor to your webpage found you through a search-engines own index whereof Google´s is the most
+advanced one. Without them people would have to know and memorize several dozen specific set of characters to get to any specific webpage. 
+The "Googlebot" is a piece of software that automatically and constantly crawls the internet through links to map its content to their 
+index. This index is what you actually use when you "search" for something on the internet.
+    But the Googlebot doesn´t only map the internet, it also evaluate and grade the content and syntax of every page and reward the best 
+built and most relevant pages with high exposure by displaying them early in the list of results you get back from your search. 
+If you link, or even better get linked ("backlinked") from an to Google approved and trusted source of information you might end up really
+high in the list. 
+    Worth mentioning is that this may also be achieved by buying this service from them (this is called ads).
+If you want to find out more you can read about it here: https://www.adsight.se/seo/.
+ 
+You might also have heard of "Off site SEO". This regards to the way of making people find your site that you cannot directly influence
+by your own coding skills, or rather ability to meet the search-engines criteria. 
+"Backlink" is commonly one of these and probably the most important one... at least cost-free. Influential people referring/mentioning your
+site also counts as "Off site SEO". Other ways might be to etc. start marketing your place in other media.
