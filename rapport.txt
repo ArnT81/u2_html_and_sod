@@ -1,6 +1,6 @@
 Report!
 
-The webpage is created in 1920*1080px and all measurements are set in relative length-units in the css. All pages are responsive 
+The webpage was created in 1920*1080px and all measurements are set in relative length-units in the css. All pages are responsive 
 and there are 2 breakpoints. the first one between 800px and 415px is a shared value to cover the Mozilla Firefox´s developer-tool specs 
 of Kindle and iPad. Both looks good in portrait-mode with som tweaks and Kindle looks ok in landscape-mode but require a bit of scrolling sideways.
 iPad-landscape however doesn´t work with the page and since it wasn´t required I didn´t spent more time to fix it. The second breakpoint 
