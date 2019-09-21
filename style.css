@@ -7,18 +7,14 @@ h3 {
 }
 
 p {
-    display: block;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 0;
 }
 
 ul,li {
     list-style: none;
     display: inline;
     padding: 0;
-    margin:0;
+    margin: 0;
 }
 
 
@@ -282,10 +278,11 @@ body {
 *Loading a smaller version of the background picture with
 repeat instead.
 *The grid is reconfigured to a single column.
-*The navbar is centrated.
+*The navbar is centrated along with the content within.
 *All fonts are reduced in size.
 *Overflow hidden for content in navbar and footer
-*(header) gone under navbar*/
+*(header) gone with display none
+*pictures are set to screen witdh and media-icons reconfigured*/
 
 @media only screen and (max-width: 414px) {
 
