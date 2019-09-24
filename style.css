@@ -221,7 +221,7 @@ body {
 .container {
     width: 96%;
     grid-template-columns: 40% 60%;
-    grid-template-rows: 6% 20% 20% 20% 20% auto;
+    grid-template-rows: 60px 20% 20% 20% 20% auto;
 }
 
 .header {
@@ -365,3 +365,13 @@ body {
 }
 } 
 
+/* background repaet for iPad in Landscape mode */
+
+@media only screen and (min-width: 1023px) and (max-width: 1025px) {
+
+body {
+    background-image: url("media/city-1920.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    } 
+}
